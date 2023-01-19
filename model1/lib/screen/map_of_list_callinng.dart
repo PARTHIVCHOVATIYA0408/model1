@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:model1/model/common_model_map_of_list.dart';
 
 import '../app_data/student_data.dart';
-import '../model/map_of_list_model.dart';
+import '../app_data/map_of_list_model.dart';
 import '../model/student_model.dart';
 
 class MapOfListList extends StatefulWidget {
