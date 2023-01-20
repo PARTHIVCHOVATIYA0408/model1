@@ -26,7 +26,7 @@ class StudentModel {
   }
 }
 
-class Student1 {
+class Student1 { 
   final String? name;
   final int? rollnum;
   final String? course;
