@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:model1/model/Git_model.dart';
 import 'package:model1/model/common_model_map_of_list.dart';
 
+import '../app_data/git_data.dart';
 import '../app_data/student_data.dart';
 import '../app_data/map_of_list_model.dart';
 import '../model/student_model.dart';
@@ -16,12 +17,14 @@ class MapOfListList extends StatefulWidget {
 class _MapOfListListState extends State<MapOfListList> {
   MobileDataModel? mobileData;
   StudentModel? studentModel;
-  
+  Gitmodel? gitmodel;
+
   @override
   void initState() {
     super.initState();
     mobileData = MobileDataModel.fromJson(MobileData.listPhone);
     studentModel = StudentModel.fromJson(StudentData.studentInformation);
+    gitmodel = Gitmodel.fromJson(GitData.modelList);
   }
 
   @override
@@ -108,6 +111,18 @@ class _MapOfListListState extends State<MapOfListList> {
                 Text("data :${studentModel!.student6!.name}"),
                 Text("data :${studentModel!.student6!.rollnum}"),
                 Text("data :${studentModel!.student6!.course}"),
+              ],
+            ),
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.deepOrangeAccent,
+            child: Column(
+              children: [
+                Text("data :${studentModel!.student5!.name}"),
+                Text("data :${studentModel!.student5!.rollnum}"),
+                Text("data :${studentModel!.student5!.course}"),
               ],
             ),
           ),
