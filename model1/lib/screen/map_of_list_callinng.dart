@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:model1/model/Git_model.dart';
 import 'package:model1/model/common_model_map_of_list.dart';
 
 import '../app_data/student_data.dart';
@@ -15,6 +16,7 @@ class MapOfListList extends StatefulWidget {
 class _MapOfListListState extends State<MapOfListList> {
   MobileDataModel? mobileData;
   StudentModel? studentModel;
+  GitModel? gitmodel;
   @override
   void initState() {
     super.initState();
