@@ -53,80 +53,80 @@ class _MapOfListListState extends State<MapOfListList> {
                     height: 20,
                   ),
               itemCount: mobileData!.applelist!.length),
-          // Container(
-          //   height: 100,
-          //   width: 100,
-          //   color: Colors.grey,
-          //   child: Column(
-          //     children: [
-          //       Text("data:${studentModel!.student1!.name}"),
-          //       Text("data :${studentModel!.student1!.rollnum}"),
-          //       Text("data :${studentModel!.student1!.course}"),
-          //       Text("data :${studentModel!.student1!.fees}"),
-          //     ],
-          //   ),
-          // ),
-          // Container(
-          //   height: 100,
-          //   width: 100,
-          //   color: Colors.blue,
-          //   child: Column(
-          //     children: [
-          //       Text("data:${studentModel!.student2!.name}"),
-          //       Text("data :${studentModel!.student2!.rollnum}"),
-          //       Text("data :${studentModel!.student2!.course}"),
-          //       Text("data :${studentModel!.student2!.fees}"),
-          //     ],
-          //   ),
-          // ),
-          // Container(
-          //   height: 100,
-          //   width: 100,
-          //   color: Colors.pink,
-          //   child: Column(
-          //     children: [
-          //       Text("data :${studentModel!.student3!.name}"),
-          //       Text("data :${studentModel!.student3!.rollnum}"),
-          //       Text("data :${studentModel!.student3!.course}"),
-          //     ],
-          //   ),
-          // ),
-          // Container(
-          //   height: 100,
-          //   width: 100,
-          //   color: Colors.amber,
-          //   child: Column(
-          //     children: [
-          //       Text("data :${studentModel!.student4!.name}"),
-          //       Text("data :${studentModel!.student4!.rollnum}"),
-          //       Text("data :${studentModel!.student4!.course}"),
-          //     ],
-          //   ),
-          // ),
-          // Container(
-          //   height: 100,
-          //   width: 100,
-          //   color: Colors.brown,
-          //   child: Column(
-          //     children: [
-          //       Text("data :${studentModel!.student6!.name}"),
-          //       Text("data :${studentModel!.student6!.rollnum}"),
-          //       Text("data :${studentModel!.student6!.course}"),
-          //     ],
-          //   ),
-          // ),
-          // Container(
-          //   height: 100,
-          //   width: 100,
-          //   color: Colors.deepOrangeAccent,
-          //   child: Column(
-          //     children: [
-          //       Text("data :${studentModel!.student5!.name}"),
-          //       Text("data :${studentModel!.student5!.rollnum}"),
-          //       Text("data :${studentModel!.student5!.course}"),
-          //     ],
-          //   ),
-          // ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.grey,
+            child: Column(
+              children: [
+                Text("data:${studentModel!.student1!.name}"),
+                Text("data :${studentModel!.student1!.rollnum}"),
+                Text("data :${studentModel!.student1!.course}"),
+                Text("data :${studentModel!.student1!.fees}"),
+              ],
+            ),
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.blue,
+            child: Column(
+              children: [
+                Text("data:${studentModel!.student2!.name}"),
+                Text("data :${studentModel!.student2!.rollnum}"),
+                Text("data :${studentModel!.student2!.course}"),
+                Text("data :${studentModel!.student2!.fees}"),
+              ],
+            ),
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.pink,
+            child: Column(
+              children: [
+                Text("data :${studentModel!.student3!.name}"),
+                Text("data :${studentModel!.student3!.rollnum}"),
+                Text("data :${studentModel!.student3!.course}"),
+              ],
+            ),
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.amber,
+            child: Column(
+              children: [
+                Text("data :${studentModel!.student4!.name}"),
+                Text("data :${studentModel!.student4!.rollnum}"),
+                Text("data :${studentModel!.student4!.course}"),
+              ],
+            ),
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.brown,
+            child: Column(
+              children: [
+                Text("data :${studentModel!.student6!.name}"),
+                Text("data :${studentModel!.student6!.rollnum}"),
+                Text("data :${studentModel!.student6!.course}"),
+              ],
+            ),
+          ),
+          Container(
+            height: 100,
+            width: 100,
+            color: Colors.deepOrangeAccent,
+            child: Column(
+              children: [
+                Text("data :${studentModel!.student5!.name}"),
+                Text("data :${studentModel!.student5!.rollnum}"),
+                Text("data :${studentModel!.student5!.course}"),
+              ],
+            ),
+          ),
           Container(
             height: 100,
             width: 100,
