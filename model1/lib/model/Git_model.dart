@@ -9,7 +9,3 @@
 //   }
 // }
 
-class GitModel{
-  Model? model;
-
-}

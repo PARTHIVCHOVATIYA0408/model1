@@ -16,7 +16,7 @@ class MapOfListList extends StatefulWidget {
 class _MapOfListListState extends State<MapOfListList> {
   MobileDataModel? mobileData;
   StudentModel? studentModel;
-  GitModel? gitmodel;
+  
   @override
   void initState() {
     super.initState();
