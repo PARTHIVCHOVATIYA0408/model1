@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:model1/screen/map_of_list_callinng.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MapOfListList(),
+      home: const MyApp(),
     );
   }
 }
